@@ -1,0 +1,9 @@
+Topic 18 - Threshold Comparison
+====================================================================
+Policy        Act  Ask  Acted  Wrong acted  Human  Escalated
+permissive    0.60 0.35 8      0            5      7
+balanced      0.80 0.50 4      0            6      10
+conservative  0.90 0.70 2      0            4      14
+Chosen policy: permissive
+Reason: Minimizes incorrect answers acted on, then prefers more correct actions among policies tied on that measure.
+Saved report: E:\Tayana_Projects\Agent_Planning_and_Reasoning\Confidence_Scoring_Assessment\evidence\threshold_results.json

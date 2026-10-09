@@ -1,0 +1,6 @@
+Topic 18 — Confidence Scoring
+================================================
+clear 0.985 act
+mixed 0.712 ask_human
+overconfident 0.218 escalate
+brier: 0.185

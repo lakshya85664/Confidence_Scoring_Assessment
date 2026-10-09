@@ -1,0 +1,6 @@
+Topic 18 - Calibration Analysis
+============================================
+Cases: 20
+Brier score: 0.084
+Lower Brier scores indicate better calibration.
+Saved report: E:\Tayana_Projects\Agent_Planning_and_Reasoning\Confidence_Scoring_Assessment\evidence\calibration_results.json

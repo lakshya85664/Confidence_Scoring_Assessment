@@ -1,0 +1,37 @@
+{
+  "case_count": 20,
+  "comparison": [
+    {
+      "name": "permissive",
+      "act_at": 0.6,
+      "ask_at": 0.35,
+      "total_cases": 20,
+      "acted_on": 8,
+      "wrong_answers_acted_on": 0,
+      "sent_to_human": 5,
+      "escalated": 7
+    },
+    {
+      "name": "balanced",
+      "act_at": 0.8,
+      "ask_at": 0.5,
+      "total_cases": 20,
+      "acted_on": 4,
+      "wrong_answers_acted_on": 0,
+      "sent_to_human": 6,
+      "escalated": 10
+    },
+    {
+      "name": "conservative",
+      "act_at": 0.9,
+      "ask_at": 0.7,
+      "total_cases": 20,
+      "acted_on": 2,
+      "wrong_answers_acted_on": 0,
+      "sent_to_human": 4,
+      "escalated": 14
+    }
+  ],
+  "chosen_policy": "permissive",
+  "selection_reason": "Minimizes incorrect answers acted on, then prefers more correct actions among policies tied on that measure."
+}
